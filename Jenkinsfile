@@ -10,7 +10,7 @@ pipeline {
              steps {	
                 echo 'Running build automation'	
                 sh 'chmod +x ./gradlew'	
-                sh './gradlew build --no-daemon'	
+                sh './gradlew build'	
             }	
         }
        
